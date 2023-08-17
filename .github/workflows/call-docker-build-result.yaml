@@ -8,7 +8,7 @@ on:
     # only build when important files change
     paths:
       - 'result/**'
-      - '.github/workflows/call-docker-build-result.yaml'
+      - '.github/workflows/call-docker-build-result.yaml' 
   pull_request:
     branches:
       - 'main'
